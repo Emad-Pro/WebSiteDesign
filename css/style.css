@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    line-height: 1em;
+}
+
+.h2-title {
+    font-size: 55px;
+    margin: 40px 60px 20px 60px;
+    color: #14b1ab;
+}
+
+.hr-buttom {
+    margin-left: 60px;
+    width: 50px;
+    height: 7px;
+    background-color: #14b1ab;
+    border: 5px;
+    border-radius: 20px;
+}
+
+.p-title {
+    width: 84%;
+    line-height: 1.7em;
+    margin: 30px 10px 0px 60px;
+    font-size: 15px;
+    color: dimgray;
+}
+
+.nav-left {
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: white;
+    background: #14b1ab;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+}
+
+.nav-left .title-page {
+    display: block;
+    padding: 50px 40px;
+    font-weight: bolder;
+    font-size: auto;
+}
+
+.nav-left .btn-nav-left {
+    display: block;
+}
+
+.nav-left .btn-nav-left ul {
+    list-style-type: none;
+}
+
+.nav-left .btn-nav-left ul li {
+    padding: 10px
+}
+
+.nav-left .btn-nav-left ul li a {
+    display: block;
+    font-size: auto;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+    overflow: hidden;
+    color: white;
+    padding: 10px 30px;
+}
+
+.nav-left .btn-nav-left ul li a:hover {
+    font-size: auto;
+    text-decoration: none;
+    color: black;
+    background: white;
+}
+
+.page {
+    position: absolute;
+    overflow: hidden;
+    left: 25%;
+    color: black;
+    width: 75%;
+}
+
+.page .top-page-showcase .top-page-showcase-title h1 {
+    font-size: 65px;
+    margin: 40px 60px 20px
+}
+
+.page .top-page-showcase .top-page-showcase-image {
+    margin: 40px;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.page .top-page-showcase .top-page-showcase-image img {
+    margin: 15px 10px;
+    width: 350px;
+    height: 250px;
+    opacity: 0.8;
+    
+}
+
+.page .top-page-showcase .top-page-showcase-image img:hover {
+    opacity: 10;
+
+}
+
+.page .center-page-designers {
+    overflow: hidden;
+}
+
+.page .center-page-designers .center-page-designers-title h4 {
+    margin: 20px 60px 0px
+}
+
+.page .center-page-designers .center-page-designers-porfilo {
+    width: 92%;
+    margin: 30px 0 0 60px;
+}
+
+.page .center-page-designers .center-page-designers-porfilo>div {
+    margin: 0px 0px 20px 0px;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 30%;
+    float: left;
+    background-color: #F1F1F1;
+}
+
+.page .center-page-designers .center-page-designers-porfilo .image-team {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.page .center-page-designers .center-page-designers-porfilo .h3-names {
+    margin: 10px 10px 0;
+}
+
+.page .center-page-designers .center-page-designers-porfilo .h4-jop {
+    margin: 10px 10px 0;
+    color: #999;
+    line-height: 2em;
+}
+
+.page .center-page-designers .center-page-designers-porfilo .p-skill {
+    width: 80%;
+    margin: 10px 10px 0;
+    line-height: 30px;
+    font-size: large;
+}
+
+
+/*packagee*/
+
+.page .center-page-packages {}
+
+.p-package {
+    width: 84%;
+    float: left;
+    margin: 30px 10px 20px 60px;
+    line-height: 25px;
+}
+
+.center-page-packages .center-page-packages-plan>div {
+    width: 41%;
+    overflow: hidden;
+    background: #F1F1F1;
+    float: left;
+    margin: 0px -20px 20px 60px;
+}
+
+.center-page-packages .center-page-packages-plan .plan1 .basic {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background: #616161;
+}
+
+.center-page-packages .center-page-packages-plan .plan1 b {
+    font-size: 25px;
+}
+
+.center-page-packages .center-page-packages-plan .plan1 span,
+b {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.center-page-packages .center-page-packages-plan .plan1 a {
+    background: #FFFFFF;
+    color: #000;
+    width: 90px;
+    overflow: hidden;
+    padding: 15px;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.center-page-packages .center-page-packages-plan .plan1 a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.center-page-packages .center-page-packages-plan .plan2 .pro {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background: #14b1ab;
+}
+
+.center-page-packages .center-page-packages-plan .plan2 span,
+b {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.center-page-packages .center-page-packages-plan .plan2 b {
+    font-size: 25px;
+}
+
+.center-page-packages .center-page-packages-plan .plan2 a {
+    background: #14b1ab;
+    color: #fff;
+    width: 90px;
+    overflow: hidden;
+    padding: 15px;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.center-page-packages .center-page-packages-plan .plan2 a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.hr-plan {
+    border: solid 0.2px #ddd;
+}
+
+
+/*Contact*/
+
+.footer-page-contact {
+    width: 85%;
+    overflow: hidden;
+}
+
+.footer-page-contact form label {
+    padding: 30px 10px 20px 60px;
+    line-height: 1.7em;
+}
+
+.footer-page-contact input {
+    font-size: 25px;
+    display: block;
+    width: 80%;
+    margin: 0px 60px 20px;
+    padding: 10px 0px;
+    border: solid 1px #596e79;
+}
+
+.footer-page-contact button {
+    display: block;
+    overflow: hidden;
+    background-color: #14b1ab;
+    border: solid 1px;
+    margin: 0px 60px 20px;
+    color: #fff;
+    width: 80%;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-page-contact button:hover {
+    background: #f1f1f1;
+    color: #000;
+    border: solid 1px #f7f7f7;
+}
+
+.footer-page {
+    width: auto;
+    background-color: #616161;
+    padding: 10px 30px 10px 0;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+}
+
+.footer-page div {
+    display: inline;
+    color: #f9d56e;
+}
+
+
+/*@345asdfghA00000aaaa*/
